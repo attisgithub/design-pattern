@@ -1,16 +1,15 @@
 package chainofre.origin1;
 
-
-public class ConcreteHandler1 extends Handler {
+public class ConcreteHandler2 extends Handler {
 
 	@Override
 	protected Level getHandleLevel() {
-		return new Level(1);
+		return new Level(2);
 	}
 
 	@Override
 	protected Response echo(Request request) {
-		System.out.println("handler1");
+		System.out.println("handler2");
 		return null;
 	}
 

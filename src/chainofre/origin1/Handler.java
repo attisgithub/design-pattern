@@ -4,7 +4,7 @@ public abstract class Handler {
 
 	private Handler nextHandler;
 
-	private void setNext(Handler nextHandler) {
+	public void setNext(Handler nextHandler) {
 		this.nextHandler = nextHandler;
 	}
 
